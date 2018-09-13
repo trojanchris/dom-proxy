@@ -1,7 +1,7 @@
 # dom-proxy
 
 ### What it does
-The dom proxy is an ES6 proxy implementation that allows for the dynamic generation of html in javascript based on variable inputs, providing the ability to attach event listeners to elements or multiple children of elements in the same step as they are created in, and facilitates dynamically using inline logic to modify the elements as they are made.
+The dom proxy is an ES6 proxy implementation that allows for the dynamic generation of html in javascript based on variable inputs, providing the ability to attach event listeners to elements or multiple children of elements in the same step as they are created in, and facilitates dynamically using inline logic to modify the elements as they are made. Its a minimal approach to create psuedo-stateful components in your webpage.
 
 ### Usage
 Any element passed as a function call of the dom proxy will be created as an element.
